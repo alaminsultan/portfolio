@@ -55,13 +55,13 @@ nav li {
 header {
   background-color: white;
 }
-main {
+.hero-section {
   background-color: #fff8f3;
   padding-top: 40px;
   background-image: url(images/header_bg.png), url(images/developer.png);
   background-repeat: no-repeat;
   background-position: right -100px bottom, left;
-  background-size: 60%, 70px;
+  background-size: 60%, 65px;
 }
 div ul {
   list-style: none;
@@ -85,4 +85,56 @@ div li {
   transition-delay: 0.05s;
 }
 .About-Me {
+  max-width: 800px;
+  margin: 100px auto;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 80px 80px;
+  background-color: #fff8f3;
+  border-radius: 10px;
+}
+.s-title {
+  font-size: 30px;
+  color: black;
+}
+.s-paragraph {
+  font-size: 18px;
+  color: black;
+  margin-top: 10px;
+}
+.m-div {
+  display: flex;
+  margin: 10px auto;
+  justify-content: space-around;
+}
+.What-i-do {
+  max-width: 800px;
+  margin: 30px auto;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 80px 80px;
+}
+.d-div {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.d-box{
+    box-shadow: solid black 2px;
+    padding: 10px 20px;
+    border: solid black 1px;
+    margin: 10px;
+    margin-top: -40px;
+}
+.d-title{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.d-pragrap{
+margin-top: 10px;
+font-size: 15px;
+line-height: 22px;
+}
+.d-image{
+    width: 30px;
 }
