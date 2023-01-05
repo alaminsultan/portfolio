@@ -96,6 +96,7 @@ div li {
 .s-title {
   font-size: 30px;
   color: black;
+  text-align: center;
 }
 .s-paragraph {
   font-size: 18px;
@@ -119,22 +120,71 @@ div li {
   max-width: 1000px;
   margin: 0 auto;
 }
-.d-box{
-    box-shadow: solid black 2px;
-    padding: 10px 20px;
-    border: solid black 1px;
-    margin: 10px;
-    margin-top: -40px;
+.d-box {
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 20px 20px;
+  margin: 10px;
+  margin-top: -40px;
 }
-.d-title{
-    font-weight: bold;
-    margin-top: 10px;
+.d-title {
+  font-weight: bold;
+  margin-top: 10px;
 }
-.d-pragrap{
-margin-top: 10px;
-font-size: 15px;
-line-height: 22px;
+.d-pragrap {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 22px;
 }
-.d-image{
-    width: 30px;
+.d-image {
+  width: 30px;
+}
+.Resume-summary {
+  max-width: 950px;
+  margin: 30px auto;
+  margin-bottom: 0;
+  padding: 80px 80px;
+}
+.rs-div{
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-around;
+}
+.rs-main{
+    padding: 40px;
+}
+.rs-title3{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.rs-title4{
+    font-size: 20px;
+}
+.rs-pragrap1{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.rs-pragrap2{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.rs-line{
+    margin-bottom: 10px;
+}
+.btn-cc{
+    text-align: center;
+}
+div input{
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.f-connect{
+    display: flex;
+}
+
+footer{
+    background-color: #FFF8F3;
+    padding: 50px;
 }
