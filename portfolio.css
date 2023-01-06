@@ -72,6 +72,10 @@ div li {
   margin-right: 20px;
   margin-top: 20px;
 }
+div a {
+  margin-right: 20px;
+  margin-top: 20px;
+}
 .btn-c {
   background: #fd6e0a;
   border-radius: 5px;
@@ -146,45 +150,76 @@ div li {
   margin-bottom: 0;
   padding: 80px 80px;
 }
-.rs-div{
-    display: flex;
-    margin: 10px auto;
-    justify-content: space-around;
+.rs-div {
+  display: flex;
+  margin: 10px auto;
+  justify-content: space-around;
 }
-.rs-main{
-    padding: 40px;
+.rs-main {
+  padding: 40px;
 }
-.rs-title3{
-    font-size: 24px;
-    margin-bottom: 15px;
+.rs-title3 {
+  font-size: 24px;
+  margin-bottom: 15px;
 }
-.rs-title4{
-    font-size: 20px;
+.rs-title4 {
+  font-size: 20px;
 }
-.rs-pragrap1{
-    font-size: 16px;
-    margin-bottom: 5px;
+.rs-pragrap1 {
+  font-size: 16px;
+  margin-bottom: 5px;
 }
-.rs-pragrap2{
-    font-size: 15px;
-    margin-bottom: 10px;
+.rs-pragrap2 {
+  font-size: 15px;
+  margin-bottom: 10px;
 }
-.rs-line{
-    margin-bottom: 10px;
+.rs-line {
+  margin-bottom: 10px;
 }
-.btn-cc{
-    text-align: center;
+.btn-cc {
+  text-align: center;
 }
-div input{
-    display: flex;
-    border: 1px solid black;
-    margin-bottom: 10px;
+div input {
+  display: flex;
+  border: 1px solid black;
+  margin-bottom: 10px;
 }
-.f-connect{
-    display: flex;
+.f-connect {
+  display: flex;
+  max-width: 850px;
+  margin: 0 auto;
+  gap: 100px;
 }
 
-footer{
-    background-color: #FFF8F3;
-    padding: 50px;
+footer {
+  background-color: #fff8f3;
+  padding: 50px;
+}
+.f-conn-t {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.f-conn-p {
+  font-size: 16px;
+}
+.f-connect-m {
+  width: 50%;
+}
+form input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 20px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+form input[type="text"],
+input[type="email"] {
+  height: 25px;
+}
+::placeholder {
+  color: rgb(57, 54, 54);
 }
